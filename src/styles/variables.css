@@ -1,0 +1,41 @@
+:root {
+  /* color palette */
+  --color-bg-primary: #212121;
+  --color-bg-secondary: #e53935;
+  --color-bg-tertiary: #bdbdbd;
+  --white-bg: #fff;
+
+  /* Typography */
+
+  /* Headings */
+  --h1-size: 5rem;
+  --h1-weight: 700;
+
+  --h2-size: 4rem;
+  --h2-weight: 600;
+
+  --h3-size: 3rem;
+  --h3-weight: 500;
+
+  /* text */
+
+  --text-base-size: 1.6rem;
+  --text-small: 1.2rem;
+  --text-large: 1.8rem;
+  --text-base-weight: 400;
+
+  /* darkmode toggle variables */
+  --text-color-lightmode: var(--color-bg-primary, #212121);
+  --text-color-darkmode: var(--white-bg, #fff);
+
+  /* paddings */
+  --padding-small: 1rem;
+  --padding-medium: 1.6rem;
+  --padding-large: 2rem;
+  --padding-xlarge: 4.8rem;
+
+  /* button styles */
+  --btn-border-radius: 0.8rem;
+  --btn-border: none;
+  
+}
