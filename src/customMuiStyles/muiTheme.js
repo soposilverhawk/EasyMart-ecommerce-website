@@ -4,7 +4,6 @@ export const getTheme = (mode) =>
   createTheme({
     palette: {
       mode,
-
       ...(mode === "light"
         ? {
             background: {
@@ -25,7 +24,7 @@ export const getTheme = (mode) =>
               paper: "#020617",
             },
             text: {
-              primary: "#f8fafc",
+              primary: "#ffffff",
               secondary: "#cbd5f5",
             },
             primary: {
@@ -33,13 +32,24 @@ export const getTheme = (mode) =>
             },
           }),
     },
-
     components: {
       MuiButton: {
         styleOverrides: {
           root: {
+            backgroundColor: "var(--color-bg-secondary)",
+            color: "var(--white-bg)",
             textTransform: "none",
             borderRadius: 8,
+            "&:hover": {
+              backgroundColor: "#e53835b0",
+            },
+          },
+        },
+      },
+      MuiSvgIcon: {
+        styleOverrides: {
+          root: {
+            color: "var(--white-bg)",
           },
         },
       },
