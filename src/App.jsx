@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import AppContainer from "./components/shared/appContainer/AppContainer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <AppContainer>
       
-    </>
-  )
+    </AppContainer>
+  );
 }
 
-export default App
+export default App;
