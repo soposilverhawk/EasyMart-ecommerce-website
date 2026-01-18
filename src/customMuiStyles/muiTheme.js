@@ -45,6 +45,9 @@ export const getTheme = (mode) =>
             },
           },
         },
+        defaultProps: {
+          disableRipple: true
+        }
       },
       MuiSvgIcon: {
         styleOverrides: {
